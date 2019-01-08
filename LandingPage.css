@@ -1,0 +1,73 @@
+section {
+    width: 100%;
+    min-height: 300px;
+    height: fit-content;
+    padding-top: 50px;
+    border: 2px solid black;
+    background: linear-gradient(to right, rgb(31, 31, 31), white);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.story {
+    background-image: url('./src/img/background/back4.png');
+    background-size: contain;
+    background-blend-mode: darken;
+}
+
+.story .wrapper {
+    padding: 20px;
+    background: radial-gradient(white, rgb(44, 37, 65));
+    opacity: 0.95;
+}
+
+.button {
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(199, 0, 0);
+    box-shadow: 0 0 5px black;
+    color: white;
+}
+
+.gameplay {
+    background-image: url('./src/img/background/owl_on_tree.png');
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.gameplay .wrapper {
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(to right, rgb(66, 66, 66), white, rgb(66, 66, 66));
+}
+
+.images {
+    text-align: center;
+    height: fit-content;
+}
+
+img {
+    width: 250px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.screenshots {
+    height: fit-content;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(1, 1, 95);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
