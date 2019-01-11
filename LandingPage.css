@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Papyrus Plain';
+    font-style: normal;
+    src: url('./src/fonts/papyrus_plain_cyrillic_by_ihateyouare.ttf') format('truetype');
+}
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     overflow: scroll;
 }
 
@@ -23,6 +29,11 @@ section {
     background-size: contain;
 }
 
+.story .wrapper p:nth-child(2) {
+    font-family: 'Papyrus Plain';
+    font-weight: 700;
+}
+
 .story .wrapper {
     padding: 20px;
     background: radial-gradient(white, rgb(44, 37, 65));
@@ -34,8 +45,8 @@ section {
     padding: 30px;
     border-radius: 10px;
     background-color: rgb(199, 0, 0);
-    transition: box-shadow 0.5s;
     color: white;
+    transition: box-shadow 0.5s;
 }
 
 .button:hover {
@@ -78,6 +89,7 @@ footer {
 }
 
 footer a {
+    font-family: 'Papyrus Plain';
     text-decoration: none;
     color: white;
 }
